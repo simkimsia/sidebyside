@@ -59,6 +59,7 @@ foreach($codes as  $code)
 </div>
 <script>
     $("p").click(function () {
+      $(this).siblings().removeClass("highlight");
       $(this).toggleClass("highlight");
     });
 </script>
