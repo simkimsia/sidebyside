@@ -52,10 +52,8 @@ foreach($codes as  $code)
 	
 </div>
 <div id="right" class="display">
-  <p class="blue">Click to toggle</p>
-  <p class="blue highlight">highlight</p>
-  <p class="blue">on these</p>
-  <p class="blue">paragraphs</p>
+  <img src="images/textbox.jpg"/>
+  <img src="images/submit.jpg"/>
 </div>
 <script>
     $("p").click(function () {
