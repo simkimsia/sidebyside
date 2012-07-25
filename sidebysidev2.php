@@ -3,13 +3,13 @@
 $leftHandSideCodes=array('<html>', 
 			 '<head>',
 			 '</head>',
-			 '<body/>', 
+			 '<body>', 
 		     '<form>',	
-			 '#1' => '<input type="text" name="name"/>',
+			 '#1' => 'Name:<input type="text" name="name"/>',
 			 '#2' => '<input type="submit" name="submit"/>',
 			 '</form>',	
 			 '</body>',
-			 '<html>'
+			 '</html>'
 			);
 			
 $rightHandSideCodes=array(
@@ -22,6 +22,9 @@ $htmlencoded = array();
 <!DOCTYPE html>
 <html>
 <head>
+		<title>
+			Prototype
+		</title>
   <style>
 
   p { margin: 4px; font-size:16px; font-weight:bolder;
