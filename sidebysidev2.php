@@ -40,6 +40,7 @@ $htmlencoded = array();
 	position:absolute;
 	left:0px;
 	width:600px;
+	white-space: pre-wrap;
 }
 
 #right
@@ -55,7 +56,7 @@ $htmlencoded = array();
 
 
 
-<div id="left" class="display"><pre>
+<div id="left" class="display">
 <?php
 	
 foreach($leftHandSideCodes as $key => $code)
@@ -70,7 +71,7 @@ foreach($leftHandSideCodes as $key => $code)
 }
 ?>	
 	
-</pre></div>
+</div>
 <div id="right" class="display">
 <?php
 	

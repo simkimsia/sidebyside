@@ -2,7 +2,7 @@
 </head>
 	<body>
 		<form>
-			#1<input type="text" name="name"/>#1
+	#1<input type="text" name="name"/>#1
 			#2<input type="submit" name="submit"/>#2
 		</form>
 		

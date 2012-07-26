@@ -1,6 +1,6 @@
 <?php 
 		
-require_once('addlessonintodatabase.php');
+require_once('addlessonintodatabase.php'); 
 	
 ?>
 <html>
