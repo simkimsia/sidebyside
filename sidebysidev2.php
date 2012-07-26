@@ -1,6 +1,8 @@
 <?php
 
-$leftHandSideCodes=array('<html>', 
+require_once('testbed.php');
+
+/*$leftHandSideCodes=array('<html>', 
 			 '<head>',
 			 '</head>',
 			 '<body>', 
@@ -11,6 +13,7 @@ $leftHandSideCodes=array('<html>',
 			 '</body>',
 			 '</html>'
 			);
+*/
 			
 $rightHandSideCodes=array(
 			'#1' => '<img src="images/textbox.jpg"/>', 
@@ -36,7 +39,7 @@ $htmlencoded = array();
 {
 	position:absolute;
 	left:0px;
-	width:400px;
+	width:600px;
 }
 
 #right
@@ -52,12 +55,11 @@ $htmlencoded = array();
 
 
 
-<div id="left" class="display">
+<div id="left" class="display"><pre>
 <?php
 	
 foreach($leftHandSideCodes as $key => $code)
 {
-	$code=htmlentities($code);
 	$prefixElement = '<p class="blue">';
 	$suffixElement = '</p>';
 	
@@ -68,7 +70,7 @@ foreach($leftHandSideCodes as $key => $code)
 }
 ?>	
 	
-</div>
+</pre></div>
 <div id="right" class="display">
 <?php
 	
