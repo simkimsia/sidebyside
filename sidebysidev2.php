@@ -1,6 +1,6 @@
 <?php
 
-require_once('testbed.php');
+require_once('retrievefromdatabase.php');
 
 /*$leftHandSideCodes=array('<html>', 
 			 '<head>',
